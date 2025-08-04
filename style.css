@@ -1,0 +1,89 @@
+body {
+  background-color: #1b1c2b;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 400px;
+  padding: 24px 20px;
+  background-color: #26283a;
+  border-radius: 12px;
+  box-shadow: 0 0 16px #000;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, textarea {
+  margin-bottom: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #1b1c2b;
+  color: #fff;
+}
+
+input[type="file"] {
+  padding: 4px;
+  background: #26283a;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+  max-height: 120px;
+}
+
+button {
+  padding: 12px;
+  background-color: #4f6df5;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3d52c3;
+}
+
+a {
+  color: #72b8ff;
+  text-decoration: underline;
+}
+
+.note {
+  font-size: 0.85rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.terms {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-section {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
